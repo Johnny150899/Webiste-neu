@@ -120,7 +120,6 @@ footer{
 }
 .col-2{
     flex-basis: 50%;
-    width: 50%;
 }
 .col-2 p{
     font-size: 25px;
