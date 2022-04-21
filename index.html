@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Powerfruits</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img style="transform: scale(1.5);" src="images/Logo.png" class="logo">
+                <nav class="socialmedia">
+                    <ul>
+                        <li><a class="btn" href="https://discord.gg/GN3xbQMuUQ" target="_blank" rel="noopener noreferrer"><img src="images/discord.png"></a></li>
+                        <li><a class="btn" href="https://www.instagram.com/powerfruitsnft/?hl=de"  target="_blank" rel="noopener noreferrer"><img src="images/instagram.png"></a></li>
+                        <li><a class="btn" href="https://twitter.com/PowerFruitsNFT" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png"></a></li>
+                        <li><button class="btn-connect" id="connectWallet"></button></li> 
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+            <nav class="navigation">
+                <ul id="menulist">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Story">Story</a></li>
+                    <li><a href="#Roadmap">Roadmap</a></li>
+                    <li><a href="#Family">Family</a></li>
+                    <li></li>
+                </ul>
+            </nav>
+            <div class="row1">
+                <div class="row">
+                    <div class="col-1">
+                        <video style="transform: scale(0.6);" src="images/PowerFruitsVideo.mp4"autoplay loop ></video>
+
+                    </div>
+                    <div class="col-2">
+                        <p>
+                            8,888 unique collectible PowerFruits with proof of ownership 
+                            stored on the Ethereum blockchain. PowerFruits are "Non-
+                            Fungible Tokens" on Ethereum, and each PowerFruit was
+                            created as an ERC-721 standard token, that powers most 
+                            digital art and collectibles.
+                        </p>
+                    </div>
+                </div>   
+            </div>
+            
+            <div class="ueberschriften">
+                <img id="About" src="images/Überschriften/AboutTheProjekt.png" alt="About the Project">
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <!--SLIDESHOW-->
+                    <div class="slideshow">
+                        <!-- BILDERGALARIE-->
+                        <div class="slide">
+                            <img src="images/BilderSlideshow/PB_alex.png" alt="cyan fruit" class="slidebild">
+        
+                        </div>
+                        <div class="slide">
+                            <img src="images/BilderSlideshow/PB_Dieter_.png" alt="green fruit" class="slidebild">
+        
+                        </div>
+                        <div class="slide">
+                            <img src="images/BilderSlideshow/PB_Hasan_.png" alt="purple fruit" class="slidebild">
+        
+                        </div>
+                        <div class="slide">
+                            <img src="images/BilderSlideshow/PB_johnny_.png" alt="orange fruit" class="slidebild">
+        
+                        </div>
+                        <div class="slide">
+                            <img src="images/BilderSlideshow/PB_Krug_.png" alt="yellow fruit" class="slidebild">
+        
+                        </div>
+                        <div class="slide">
+                            <img src="images/BilderSlideshow/PB_nick_.png" alt="red fruit" class="slidebild">
+        
+                        </div>
+                        <div class="slide">
+                            <img src="images/BilderSlideshow/PB_valeria_.png" alt="pink fruit" class="slidebild">
+        
+                        </div>
+                        <a class="pfeil pfeil-links" onclick="umschalten(-1)" >
+                            <span>&#10094;</span>
+        
+                        </a>
+                        <a class="pfeil pfeil-rechts" onclick="umschalten(1)" >
+                            <span>&#10095;</span>
+                        </a>
+                        <ol class="indikatorenliste">
+                            <li class="indikator" onclick="springeZuEintrag(0)">&#8226;</li>
+                            <li class="indikator" onclick="springeZuEintrag(1)">&#8226;</li>
+                            <li class="indikator" onclick="springeZuEintrag(2)">&#8226;</li>
+                            <li class="indikator" onclick="springeZuEintrag(3)">&#8226;</li>
+                            <li class="indikator" onclick="springeZuEintrag(4)">&#8226;</li>
+                            <li class="indikator" onclick="springeZuEintrag(5)">&#8226;</li>
+                            <li class="indikator" onclick="springeZuEintrag(6)">&#8226;</li>
+                        </ol>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <p>
+                        Each Powerfruit is unique and no two are exactly alike. The combination of a PowerFruit aesthetics 
+                        was randomly generated from over 100 hand drawn traits.
+                    </p>
+                </div>
+            </div>
+            <div class="ueberschriften">
+                <img id="Story" src="images/Überschriften/TheStoryOfThePowerFruits.png" alt="Story of the Powerfruits">
+            </div>
+            <div class="story">
+                <div class="col-3">
+                    <p>
+                        Many Cultures and people thought, that they were just a legend. 
+                        A story, that people would tell eachother. A Myth. Only a few would
+                        dare to go on a trip. Not knowing if they would ever come back. 
+                        Hidden and spread inside of the oldest constructions of our globe, 
+                        there is supposed to be a treasure of unimaginable value. 
+                        Its not gold,its not even jewellery or Diamonds. It is something mystical.
+                        Even magical Who would have known, that a Quest would bring this Powerful 
+                        and antique Treasure into a world, globally interconnected through advanced Technology.
+                        The Quest has started. Are you ready ?
+                    </p>
+                </div>               
+
+            </div>
+            <div class="ueberschriften">
+                <img id="Roadmap" style="transform: scale(0.6);"  src="images/Überschriften/Roadmap.png" alt="Roadmap">
+            </div>
+            <div class="normalRoadmap">
+                <ul>
+                    <li>
+                        <div class="content">
+                            <h1>Website:</h1>
+                            <p>
+                                If you can read this it means we finished our first step and the Website is public.    
+                            </p>
+                        </div>
+                        <div class="step">
+                            <h4>STEP 1</h4>
+                        </div>           
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>3D-ROADMAP:</h1>
+                            <p>
+                                it won’t take much longer until you’ll be able to play our 3D-Roadmap and try out some of the PowerFruits. 
+                                This will give you a hint on the future!
+                            </p>
+                        </div>
+                        <div class="step">
+                            <h4>STEP 2</h4>
+                        </div>    
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>Build a stable community:</h1>
+                            <p>
+                                We are working on this point since we postet our first Twitter Post. It’s all about building a stable, 
+                                friendly and family like community where a lot of the members are involved. Only if this point is on a substantial level,
+                                we will focus on the next steps. 
+                            </p>
+                        </div>
+                        <div class="step">
+                            <h4>STEP 3</h4>
+                        </div>    
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>Launch mint Date: </h1>
+                            <p>
+                                As mentioned in the 3. step, we will only focus on this point when the community is at a substantial level.
+                                We want to bring out a good and high quality project.
+                            </p>  
+                        </div>
+                        <div class="step">
+                            <h4>STEP 4</h4>
+                        </div>                         
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>Mint:</h1>
+                            <p>
+                                The mint will take place on our Website. Stay tuned and follow us on twitter to get all the information considering mint date and price.
+                            </p>  
+                        </div>
+                        <div class="step">
+                            <h4>STEP 5</h4>
+                        </div>                         
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>PixelFruits Production:</h1>
+                            <p>
+                                After the mint we will start the production of the PixelFruits. They will be like the PowerFruits but in a pixelated design.
+                                You’re asking yourself why we are doing this?
+                                Firstly to give something back to the community for free and secondary to make them usable for other games like P2E.
+                            </p>  
+                        </div>
+                        <div class="step">
+                            <h4>STEP 6</h4>
+                        </div>    
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>AIRDROP:</h1>
+                            <p>
+                                All Powerfruit holders will recieve a PixelFruit to do whatever they like with it.   
+                            </p>  
+                        </div>
+                        <div class="step">
+                            <h4>STEP 7</h4>
+                        </div>  
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>MERCH:</h1>
+                            <p>
+                                There will be a merchandise store selling products like PowerFruits T-Shirts, decorative lamps and much more.
+                            </p>  
+                        </div>
+                        <div class="step">
+                            <h4>STEP 8</h4>
+                        </div>  
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>Story:</h1>
+                            <p>
+                                There will be a detailed story about the PowerFruits.
+                            </p>  
+                        </div>
+                        <div class="step">
+                            <h4>STEP 9</h4>
+                        </div>   
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h1>METAVERSE:</h1>
+                            <p>
+                                This is the big goal and the final step. People will be able to use the PowerFruits in the Metaverse.
+                                Sandbox, Decentraland or even Somniumspace. Be ready for what is coming!
+                            </p>  
+                        </div>
+                        <div class="step">
+                            <h4>STEP 10</h4>
+                        </div>       
+                    </li>
+                    <div style="clear: both"></div>
+                </ul>
+            </div>
+            <div class="ueberschriften">
+                <img id="Roadmap3D" style="transform: scale(0.6);"  src="images/Überschriften/3D-Roadmap.png" alt="Roadmap">
+            </div>
+            <div class="Roadmap3D">
+                <h1 >Coming soon!</h1>
+                <div class="pictures">
+                    <a><img src="images/3D-Roadmappic.jpeg" alt="Roadmap picture"></a>
+                    <a><img src="images/3D-Roadmappic2.png" alt="Roadmap picture"></a>                     
+                </div>
+                
+
+            </div>
+            <div class="ueberschriften">
+                <img id="Family" src="images/Überschriften/PowerFruitsFamily.png" alt="Roadmap">
+            </div>
+            <div class="family">
+                <table>
+                    <tr>
+                        <th>
+                            <div class="mate">
+                                <div class="Profilpic">
+                                    <img src="images/Profilpics/PB_alex.png" alt="Profil picture Alex"> 
+                                </div>
+                                <div class="describtion">
+                                    <h1>Alex</h1>
+                                    <p>
+                                        Founder of PF. 2D/3D artist, discoverd 3D animations a while ago and is working hard on his Projects.   
+                                    </p>
+                                </div>                            
+                            </div>
+                        </th>
+                        <th>
+                            <div class="mate">
+                                <div class="Profilpic">
+                                    <img src="images/Profilpics/PB_Dieter_.png" alt="Profil picture Dieter"> 
+                                </div>
+                                <div class="describtion">
+                                    <h1>Dieter</h1>
+                                    <p>
+                                        Co-Founder of PF. Marketing-Manager, travelled the world and is working on connecting people, cultures and ideas.
+                                    </p>
+                                </div>                            
+                            </div>
+                        </th>                        
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="mate">
+                                <div class="Profilpic">
+                                    <img src="images/Profilpics/PB_Hasan_.png" alt="Profil picture Kaneki"> 
+                                </div>
+                                <div class="describtion">
+                                    <h1>Kaneki</h1>
+                                    <p>
+                                        Co-Founder of PF. Community manager, looking to build a nice and kind NFT community.
+                                    </p>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="mate">
+                                <div class="Profilpic">
+                                    <img src="images/Profilpics/PB_johnny_.png" alt="Profil picture Johnny"> 
+                                </div>
+                                <div class="describtion">
+                                    <h1>Johnny</h1>
+                                    <p>
+                                        Co-Founder of PF. website designer, discord creator and professional programmer.
+                                    </p>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="mate">
+                                <div class="Profilpic">
+                                    <img src="images/Profilpics/PB_Krug_.png" alt="Profil picture Mugiwara"> 
+                                </div>
+                                <div class="describtion">
+                                    <h1>Mugiwara</h1>
+                                    <p>
+                                        Co-Founder of PF. 3D artist and professionel entertainer, has worked on many projects involving animation and 3D construction. 
+                                    </p>
+                                </div>                            
+                            </div>
+                        </th>
+                        <th>
+                            <div class="mate">
+                                <div class="Profilpic">
+                                    <img src="images/Profilpics/PB_nick_.png" alt="Profil picture Nick"> 
+                                </div>
+                                <div class="describtion">
+                                    <h1>Nick</h1>
+                                    <p>
+                                        Co-Founder of PF. Smartcontract creator, has been working in the IT sector for years.
+                                    </p>
+                                </div>                            
+                            </div>
+                        </th>    
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="mate">
+                                <div class="Profilpic">
+                                    <img src="images/Profilpics/PB_valeria_.png" alt="Profil picture Valeria"> 
+                                </div>
+                                <div class="describtion">
+                                    <h1>Valeria</h1>
+                                    <p>
+                                        Co-Founder of PF. Social Media Agent, international management and marketing student, working on building a strong and reliable community.                                 </p>
+                                </div>                            
+                            </div>
+                        </th>   
+                    </tr>
+                    
+                    
+                    
+                    
+                </table>
+            </div>
+            <div class="familyhandy">
+                <table>
+                    <tr>
+                        <th>
+                            <div class="matehandy">
+                                <div class="Profilpichandy">
+                                    <img src="images/Profilpics/PB_alex.png" alt="Profil picture Alex"> 
+                                </div>
+                                <div class="describtionhandy">
+                                    <h1>Alex</h1>
+                                    <p>
+                                        Founder of PF. 2D/3D artist, discoverd 3D animations a while ago and is working hard on his Projects.   
+                                    </p>
+                                </div>                            
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="matehandy">
+                                <div class="Profilpichandy">
+                                    <img src="images/Profilpics/PB_Dieter_.png" alt="Profil picture Dieter"> 
+                                </div>
+                                <div class="describtionhandy">
+                                    <h1>Dieter</h1>
+                                    <p>
+                                        Co-Founder of PF. Marketing-Manager, travelled the world and is working on connecting people, cultures and ideas.
+                                    </p>
+                                </div>                            
+                            </div>
+                        </th>                        
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="matehandy">
+                                <div class="Profilpichandy">
+                                    <img src="images/Profilpics/PB_Hasan_.png" alt="Profil picture Kaneki"> 
+                                </div>
+                                <div class="describtionhandy">
+                                    <h1>Kaneki</h1>
+                                    <p>
+                                        Co-Founder of PF. Community manager, looking to build a nice and kind NFT community.
+                                    </p>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="matehandy">
+                                <div class="Profilpichandy">
+                                    <img src="images/Profilpics/PB_johnny_.png" alt="Profil picture Johnny"> 
+                                </div>
+                                <div class="describtionhandy">
+                                    <h1>Johnny</h1>
+                                    <p>
+                                        Co-Founder of PF. website designer, discord creator and professional programmer.
+                                    </p>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="matehandy">
+                                <div class="Profilpichandy">
+                                    <img src="images/Profilpics/PB_Krug_.png" alt="Profil picture Mugiwara"> 
+                                </div>
+                                <div class="describtionhandy">
+                                    <h1>Mugiwara</h1>
+                                    <p>
+                                        Co-Founder of PF. 3D artist and professionel entertainer, has worked on many projects involving animation and 3D construction. 
+                                    </p>
+                                </div>                            
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="matehandy">
+                                <div class="Profilpichandy">
+                                    <img src="images/Profilpics/PB_nick_.png" alt="Profil picture Nick"> 
+                                </div>
+                                <div class="describtionhandy">
+                                    <h1>Nick</h1>
+                                    <p>
+                                        Co-Founder of PF. Smartcontract creator, has been working in the IT sector for years.
+                                    </p>
+                                </div>                            
+                            </div>
+                        </th>    
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="matehandy">
+                                <div class="Profilpichandy">
+                                    <img src="images/Profilpics/PB_valeria_.png" alt="Profil picture Valeria"> 
+                                </div>
+                                <div class="describtionhandy">
+                                    <h1>Valeria</h1>
+                                    <p>
+                                        Co-Founder of PF. Social Media Agent, international management and marketing student, working on building a strong and reliable community.                                 </p>
+                                </div>                            
+                            </div>
+                        </th>   
+                    </tr>                    
+                </table>
+            </div>
+            
+
+
+        </div>
+        <!-- <footer>
+            <p> Copyright &copy; 2022, PowerFruitsNFT</p>
+        </footer> -->
+
+        <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/slideshow.js"></script>
+        <script>
+            
+            var menulist = document.getElementById("menulist");
+
+            menulist.style.maxHeight = "0px";
+
+            function togglemenu(){
+                if(menulist.style.maxHeight == "0px"){
+                    menulist.style.maxHeight = "130px"
+                }
+                else{
+                    menulist.style.maxHeight = "0px"
+                }
+
+            }
+        </script>
+    </body>
+</html>
